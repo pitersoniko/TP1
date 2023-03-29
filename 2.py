@@ -9,7 +9,10 @@ nota2 = float(input("Insira o valor da segunda nota: "))
 media = (nota1 + nota2) / 2
 
 if (media >= 9.5):
-    print("O aluno está aprovado com %s valores!" % media)    
+    print("O aluno está aprovado com %s valores!" % media)
+
+elif (media == 20)
+	print("O aluno é tão bom que merece uma taça")
 
 elif(media <= 9.5):
     print("O aluno está reprovado :(")
